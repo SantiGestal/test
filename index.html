@@ -44,8 +44,11 @@
     <div class="container-fluid row m-0 p-0" id="zona-principal">
         <!-- SideBar izquierda -->
         <div class="col-lg-2 offcanvas-lg offcanvas-start px-12 bg-secondary-subtle" tabindex="-1" id="sidebar-izq" aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-body p-0" style="overflow: hidden;">
-                <div class="flex-shrink-0 pt-3" style="width: 100%;">
+            <div class="offcanvas-header p-0 pt-4 pe-4">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" data-bs-target="#sidebar-izq" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0" style="overflow: auto;">
+                <div class="flex-shrink-0" style="width: 100%;">
                     <ul class="list-unstyled ps-0">
                         <li class="mb-1">
                             <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
